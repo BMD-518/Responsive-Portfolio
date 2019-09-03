@@ -266,4 +266,15 @@ input[type=submit] {
           float: none;
           width: 100%;
       }
+
+      .main-section {
+          padding-bottom: 125px;
+      }
+
+      .work {
+          float: none;
+          align-content: center;
+          margin: auto;
+          margin-bottom: 15px;
+      }
     }
