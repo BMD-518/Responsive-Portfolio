@@ -231,17 +231,27 @@ input[type=submit] {
     }
 
     .main-section {
-        float: none;
-        width: 60%;
+        
+        width: 68%;
         height: 60%;
         margin-left: 5%;
         padding-bottom: 20%;
       }
 
       #mainPortfolio {
-          padding-bottom: 145%;
+          padding-bottom: 1%;
+          
       }
 
+       .work {
+       width: 263px; 
+      } 
+        
+      
+
+      #submitButton {
+          margin-left: 7%;
+      }
       
   }
 
@@ -250,23 +260,19 @@ input[type=submit] {
         width: 90%;
         margin: auto;
         padding-bottom: 20%;
-      }
+    }
 
     #navLink {
         margin-right: 6%;
-     }
+    }
 
     #submitButton {
         margin-left: 6.5%;
-   }
-
-   #mainPortfolio {
-    padding-bottom: 110%;
-} 
-
-    .work {
-        
     }
+
+    
+
+   
  }
   
 
@@ -291,6 +297,7 @@ input[type=submit] {
 
       #main-container {
           padding-top: 2%;
+          margin-left: 5%;
       }
       
       .auth-image {
