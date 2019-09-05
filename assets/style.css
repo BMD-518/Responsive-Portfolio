@@ -173,6 +173,14 @@ h2 {
 }
 
 /* Contact Page */
+#contactList {
+    margin-right: 9%;
+}
+
+#submitButton {
+   margin-left: 9.5%;
+}
+
 
 .contact-form ul {
     margin-bottom: 20px;
@@ -227,19 +235,42 @@ input[type=submit] {
         width: 60%;
         height: 60%;
         margin-left: 5%;
+        padding-bottom: 20%;
       }
+
+      #mainPortfolio {
+          padding-bottom: 145%;
+      }
+
+      
   }
 
   @media(max-width: 768px) {
     .main-section {
         width: 90%;
         margin: auto;
+        padding-bottom: 20%;
       }
 
-     #navLink {
-         margin-right: 6%;
+    #navLink {
+        margin-right: 6%;
      }
-  }
+
+    #submitButton {
+        margin-left: 6.5%;
+   }
+
+   #mainPortfolio {
+    padding-bottom: 110%;
+} 
+
+    .work {
+        
+    }
+ }
+  
+
+  
 
   @media(max-width: 640px) {
       #main-header {
@@ -259,7 +290,7 @@ input[type=submit] {
       }
 
       #main-container {
-          padding-top: 5%;
+          padding-top: 2%;
       }
       
       .auth-image {
@@ -277,4 +308,12 @@ input[type=submit] {
           margin: auto;
           margin-bottom: 15px;
       }
+
+      #mainPortfolio {
+        padding-bottom: 20%;
+    } 
+
+    #submitButton {
+        margin-left: 8%;
+   }
     }
